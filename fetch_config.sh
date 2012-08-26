@@ -7,8 +7,7 @@ CONFIGS_REPO='https://git.gitorious.org/configs/configs.git'
 # Temporary directory to clone configs into
 TMP_CONFIGS=/tmp/configs.git
 # Directory where configs are stored - $HOME
-#CONFIGS_HOME=$HOME
-CONFIGS_HOME=$HOME/configs_dir
+CONFIGS_HOME=$HOME
 
 # Do some availability checks
 # check if git executable is available
